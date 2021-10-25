@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   stock-x:
   - apiVersion: v2
+    appVersion: 0.0.6
+    created: "2021-10-25T19:50:02.5932085+05:30"
+    description: An app to analyse Stock Market data and provide predictions
+    digest: 50913f1e35ae358af65b9bc4fca0a29a49dbef42f98d315cfe5c2cb38c3b21ae
+    home: https://github.com/Circle-1/Stock-X
+    icon: https://avatars.githubusercontent.com/u/90402289?s=400&u=f93d1815a9bf2d1a465dba1ea9d68364aac2b5b3&v=4
+    maintainers:
+    - email: aadhitya864@gmail.com
+      name: Aadhitya A
+    name: stock-x
+    type: application
+    urls:
+    - https://circle-1.github.io/helm-charts/stock-x-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-10-25T19:41:44.5494223+05:30"
+    created: "2021-10-25T19:50:02.5874128+05:30"
     description: An app to analyse Stock Market data and provide predictions
     digest: f491db2f7ddb4750a80d9b10c545c906a41697a74b2c2f5e865d42cc853406d3
     home: https://github.com/Circle-1/Stock-X
@@ -16,4 +31,4 @@ entries:
     urls:
     - https://circle-1.github.io/helm-charts/stock-x-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-25T19:41:44.5407903+05:30"
+generated: "2021-10-25T19:50:02.5654446+05:30"
