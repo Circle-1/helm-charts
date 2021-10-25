@@ -8,6 +8,7 @@ restartPolicy: Always
 image:
   name: aerox86/stock-x
   pullPolicy: Always
+  tag: latest-stable
 
 imagePullSecrets: []
 
