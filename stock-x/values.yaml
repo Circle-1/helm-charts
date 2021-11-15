@@ -7,7 +7,7 @@ restartPolicy: Always
 
 image:
   repository: aerox86/stock-x
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: latest-stable
 
 imagePullSecrets: []
@@ -21,12 +21,6 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: "stock-x-dev"
 
-livenessProbe:
-  enabled: false
-  path: /
-readinessProbe:
-  enabled: false
-  path: /
 
 podAnnotations: {}
 

@@ -25,3 +25,5 @@ To check if Helm charts are deployed, type
 ```
 helm ls
 ```
+
+After that, connect to localhost via port 8888 and then you'd see the jupyterlab interface; use a token by getting through inside a pod via SSH or any methods (at your risk xD)

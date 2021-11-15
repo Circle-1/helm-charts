@@ -16,7 +16,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.2
+version: 0.1.3
 
 home: https://github.com/Circle-1/Stock-X
 
@@ -24,10 +24,20 @@ home: https://github.com/Circle-1/Stock-X
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: 0.0.6
+appVersion: 0.0.10
 
 deprecated: false
 
 maintainers:
     - name: Aadhitya A
       email: aadhitya864@gmail.com
+
+annotations:
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/maintainers: |
+    - name: Aadhitya A
+      email: aadhitya864@gmail.com
+  artifacthub.io/links: |
+    - name: home
+      url: https://github.com/Circle-1/
+      
