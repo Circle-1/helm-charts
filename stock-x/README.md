@@ -7,7 +7,7 @@ Note: The notebook used here (IPYNB) is made using Kaggle, a data-science and ML
 
 Helm charts: [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/stock-x)](https://artifacthub.io/packages/search?repo=stock-x)
 
-![Version: 0.1.2](https://img.shields.io/badge/Version-0.1.2-informational?style=flat-square)
+![Version: 0.1.4](https://img.shields.io/badge/Version-0.1.4-informational?style=flat-square)
 
 ## How to run Helm charts in my Kubernetes cluster?
 
@@ -26,4 +26,4 @@ To check if Helm charts are deployed, type
 helm ls
 ```
 
-After that, connect to localhost via port 8888 and then you'd see the jupyterlab interface; use a token by getting through inside a pod via SSH or any methods (at your risk xD)
+After that, connect to localhost via port (get reference of port using `kubectl get svc` don't use 8888 it won't work) and then you'd see the jupyterlab interface; use a token by getting through inside a pod via SSH with the docker container.
